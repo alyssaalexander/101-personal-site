@@ -155,7 +155,11 @@ h4 {
 /**** CONTACT ****/
 
 .icons {
-  padding-left: 11%;
+  padding: 0 5%;
+}
+
+#contact .third-width {
+  text-align: center;
 }
 
 #contact h3 {
@@ -163,31 +167,24 @@ h4 {
 }
 
 #contact p {
-  text-align: center;
   font-size: 18px;
 }
 
 #contact a {
-  text-align: center;
   text-decoration: none;
   color: black;
 }
 
 #phone {
-  padding-left: 32%;
   font-size: 18px;
   font-weight: bold;
 }
 
 #email {
-  padding-left: 32%;
   font-size: 18px;
   font-weight: bold;
 }
 
-#git-icon {
-  margin-left: 12%;
-}
 
 /**** FOOTER ****/
 footer {
