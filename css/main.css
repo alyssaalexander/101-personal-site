@@ -1,0 +1,195 @@
+/**** BASE STYLES ****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 600px;
+  background-image: url("../img/concrete-wall.jpg");
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+/**** GRID ****/
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+}
+
+#about {
+  height: 600px;
+  margin: 0;
+  background-color: #f3f0f5;
+}
+
+#work {
+  height: 600px;
+}
+
+#contact {
+  height: 400px;
+  background-color: #f3f0f5;
+}
+
+/**** HEADER ****/
+nav {
+      float: right;
+      padding: 75px 25px;
+  }
+
+nav ul li{
+      display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5e476c;
+    font-size: 18px;
+    padding-left: 35px;
+}
+
+header h1 {
+    clear: both;
+    margin-left: 20px;
+  }
+
+header h1 span {
+      font-weight: normal;
+    }
+
+header h2 span {
+    font-weight: bold;
+    color: #5e476c;
+  }
+
+header h2 {
+  margin-left: 20px;
+}
+
+  /**** ABOUT ****/
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+#about p, h4 {
+  color: black;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+
+
+#about li {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#about img {
+  padding: 10px;
+  border: 3px solid white;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/**** WORK ****/
+
+#work p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#work p strong {
+  color: #5e476c;
+  font-size: 20px;
+}
+
+#work a {
+  text-decoration: none;
+}
+
+/**** CONTACT ****/
+
+.icons {
+  padding-left: 11%;
+}
+
+#contact h3 {
+  padding-bottom: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#phone {
+  padding-left: 32%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#email {
+  padding-left: 32%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#git-icon {
+  margin-left: 12%;
+}
+
+/**** FOOTER ****/
+footer {
+  text-align: center;
+}
